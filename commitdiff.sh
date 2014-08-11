@@ -33,7 +33,7 @@ echo "\n **********************\n Os logs serão salvos em $path_logs e a compar
 
 			val=$(echo $lista | awk '{split($0,a,"origin/"); print a[2]}');
 
-			if (git log master | grep "$val"); then
+			if (git log master | grep -F "#$val"); then
 			       echo "possui $val";
 			else 	
 			    echo "$val " >> "$fLog";
