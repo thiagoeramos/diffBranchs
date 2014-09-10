@@ -12,6 +12,6 @@ sh commitdiff.sh
 
 informe o local de destino do log
 
-informe o nome do repositorio que deseja fazer a comparação (Precisa ser o nome do diretório local do repositorio)
+informe o local do repositorio que deseja fazer a comparação (Precisa ser o caminho completo + o nome do diretório do repositório)
 
 Confirme a operação
